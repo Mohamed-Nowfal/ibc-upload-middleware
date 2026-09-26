@@ -1,0 +1,14 @@
+{
+  "name": "ftp-test",
+  "version": "1.0.0",
+  "description": "FTP upload test for ABAP HTML content",
+  "main": "test-ftp.js",
+  "scripts": {
+    "test": "node test-ftp.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "basic-ftp": "^5.0.5",
+    "dotenv": "^16.4.5"
+  }
+}
